@@ -2,40 +2,116 @@ body{
     margin: 0;
     max-height: 100vh;
     width: 100vw;
-    background-color: orange;
+  
+}
+
+#background{
+    position: fixed;
+    z-index: -1;
+    background-color: white;
 }
 
 #container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(255, 238, 208);
     margin:10vh 10vw 10vh 10vw;
     height: 80vh;
+    max-width: 1200px;
+}
+
+#logo{
+    width:25%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    text-align: center;
+    font-size: 8vw;
+    font-family: 'Kosugi Maru', sans-serif;
+    
+}
+
+h1{
+    font-size: 1em;
+}
+
+#title{
+    width:75%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    text-align: center;
+    
 }
 
 .shoji{
-    background-color: rgb(173, 134, 65);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255,0.95);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 8px;
 }
 
 .main{
     height: 60%;
-    background-color: red;
+
 }
 
 .secondary{
     height: 15%;
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    
 }
 
+.secondary div{
+    width:50%;
+    display:flex;
+    flex-direction: row;
+}
+
+#information{
+    display: flex;
+    flex-direction: column;
+}
+
+#information div{
+    height: 50%;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+}
+
+.buttons{
+    width:50%;
+}
+
+button{
+    width:100%;
+}
+
+i{
+    font-size: 4em;
+    transform: rotate(90deg);
+    te
+}
 
 #japanese{
-    width: 100%;
     writing-mode: vertical-rl;
     height: 50%;
-    background-color: wheat;
-    text-align: center;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 3vh;
+}
+
+#japanese:hover{
+    background-color: red;
 }
 
 #english{
@@ -45,7 +121,8 @@ body{
     align-content:center;
     flex-direction:column;
     text-align: center;
-    background-color: rgb(56, 53, 46);
+    font-size: 3.5vh;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 @media screen and (min-width: 600px) {
@@ -54,8 +131,28 @@ body{
         display:flex;
     }
 
+    .shoji{
+        border-radius: 20px;
+    }
+
+    #logo{
+        font-size: 3.5em;
+    }
+
+    #title{
+        font-size: 2em;
+    }
+
     #english, #japanese{
         height: 100%;
         width: 50%;
+    }
+
+    #japanese{
+        font-size: 5vh;
+    }
+
+    #english{
+        font-size: 3.5vh;
     }
 }
