@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    max-height: 100vh;
+    width: 100vw;
+    background-color: orange;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(255, 238, 208);
+    margin:10vh 10vw 10vh 10vw;
+    height: 80vh;
+}
+
+.shoji{
+    background-color: rgb(173, 134, 65);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.main{
+    height: 60%;
+    background-color: red;
+}
+
+.secondary{
+    height: 15%;
+    background-color: red;
+}
+
+
+#japanese{
+    width: 100%;
+    writing-mode: vertical-rl;
+    height: 50%;
+    background-color: wheat;
+    text-align: center;
+}
+
+#english{
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    text-align: center;
+    background-color: rgb(56, 53, 46);
+}
+
+@media screen and (min-width: 600px) {
+
+    .main{
+        display:flex;
+    }
+
+    #english, #japanese{
+        height: 100%;
+        width: 50%;
+    }
+}
