@@ -1,24 +1,27 @@
 body{
     margin: 0;
-    max-height: 100vh;
-    width: 100vw;
-    
-    
-  
+    background-image: url(img/45054.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(48, 48, 48);
+ 
+
+}
+#background{
 }
 
-#background{
-    position: fixed;
-    z-index: -1;
-    background-color: white;
-}
 
 #container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin:10vh 10vw 10vh 10vw;
-    height: 80vh;
+    margin:5vh 5vw 5vh 5vw;
+    height: 90vh;
+    width: 100%;
     max-width: 1200px;
 }
 
@@ -45,6 +48,7 @@ h1{
     align-content:center;
     flex-direction:column;
     text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     
 }
 
@@ -75,16 +79,17 @@ h1{
 #information{
     display: flex;
     flex-direction: column;
+    padding: 0;
+    justify-content: center;
 }
 
 #information div{
     height: 50%;
-    width: 100%;
+    width: 90%;
     padding-left: 10%;
     display: flex;
-    justify-content:center;
-    align-content:center;
-    flex-direction:column;
+    
+    
 }
 
 .buttons{
@@ -95,45 +100,75 @@ button{
     width:100%;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 i{
-    font-size: 4em;
-    transform: rotate(90deg);
-    te
+    font-size: 3em;
+   
 }
 
 #japanese{
     writing-mode: vertical-rl;
-    height: 50%;
+    height: 61.8%;
     width: 100%;
     display:flex;
     justify-content:center;
     align-items:center;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
-#japanese:hover{
-    background-color: red;
-}
 
 #english{
-    height: 50%;
     display: flex;
-    justify-content:center;
+    justify-content:top;
     align-content:center;
     flex-direction:column;
     text-align: center;
     font-size: 3.5vh;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    margin-top:-10%;
+}
+
+#english p{
+}
+
+hr{
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
 }
 
 #author{
     font-weight: 900;
     font-size: 4vw;
+
+    
 }
+
+
 
 #reference{
     font-size: 3vw;
+    
+}
+
+
+a{
+    width:100%;
+    heigth:100%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 @media screen and (min-width: 600px) {
