@@ -186,7 +186,7 @@ a{
     }
 
     #title{
-        font-size: 2em;
+        font-size: 2vw;
     }
 
     #english, #japanese{
@@ -200,11 +200,11 @@ a{
     }
 
     #japanese{
-        font-size: 5vh;
+        font-size: 6vh;
     }
 
     #english{
-        font-size: 3.5vh;
+        font-size: 4vh;
         margin-top:0%;
     }
 
