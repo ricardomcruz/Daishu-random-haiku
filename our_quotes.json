@@ -1,0 +1,16 @@
+{"quotes": [
+    
+    {
+        "quote-eng":"this is the quote in english",
+        "quote-shanji":"this is the quote in japanese",
+        "author":"this is the author",
+        "reference":"this is the source",
+        "background":"https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC84MzAvb3JpZ2luYWwvc2h1dHRlcnN0b2NrXzExMTA1NzIxNTkuanBn"},
+        {
+        "quote-eng":"this is the second quote in english",
+        "quote-shanji":"this is the second quote in japanese",
+        "author":"this is the second author",
+        "reference":"this is the second source",
+        "background":"https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"}
+        ]
+    }
